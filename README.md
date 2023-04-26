@@ -1,14 +1,18 @@
 # STUDENT-GRADE-ANALYSIS-PREDICTION
 Objective
+
 Prediction of the final grade of Portugese high school students
 
 Problem Statement
+
 The problem statement can be defined as follows ”Given a dataset containing attribute of 396 Portuguese students where using the features available from dataset and define classification algorithms to identify whether the student performs good in final grade exam, also to evaluate different machine learning models on the dataset.”
 
 Description Of Dataset
+
 This data approach student achievement in secondary education of two Portuguese schools. The data attributes include student grades, demographic, social and school-related features) and it was collected by using school reports and questionnaires. Two datasets are provided regarding the performance in two distinct subjects: Mathematics (mat) and Portuguese language (por). In [Cortez and Silva, 2008], the two data sets were modeled under binary/five-level classification and regression tasks. Important note: the target attribute G3 has a strong correlation with attributes G2 and G1. This occurs because G3 is the final year grade (issued at the 3rd period), while G1 and G2 correspond to the 1st and 2nd period grades. It is more difficult to predict G3 without G2 and G1, but such prediction is much more useful (see paper source for more details).
 
 Attribute Information:
+
 school - student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira)
 sex - student's sex (binary: 'F' - female or 'M' - male)
 age - student's age (numeric: from 15 to 22)
@@ -39,7 +43,9 @@ Dalc - workday alcohol consumption (numeric: from 1 - very low to 5 - very high)
 Walc - weekend alcohol consumption (numeric: from 1 - very low to 5 - very high)
 health - current health status (numeric: from 1 - very bad to 5 - very good)
 absences - number of school absences (numeric: from 0 to 93)
+
 Methodology
+
 Since universities are prestigious places of higher education, students’ retention in these universities is a matter of high concern. It has been found that most of the students’ drop-out from the universities during their first year is due to lack of proper support in undergraduate courses. Due to this reason, the first year of the undergraduate student is referred as a “make or break” year. Without getting any support on the course domain and its complexity, it may demotivate a student and can be the cause to withdraw the course.
 
 There is a great need to develop an appropriate solution to assist students retention at higher education institutions. Early grade prediction is one of the solutions that have a tendency to monitor students’ progress in the degree courses at the University and will lead to improving the students’ learning process based on predicted grades.
@@ -49,6 +55,7 @@ Using machine learning with Educational Data Mining can improve the learning pro
 Using various packages such as cufflinks, seaborn & matplotlib to represent the data along with different attributes graphically or pictorially to analyse the dataset for predicting the Final Grade(G3).
 
 Machine Learning Algorithms used
+
 Linear Regression
 Random Forest
 Extra Trees
